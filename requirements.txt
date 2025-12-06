@@ -1,0 +1,3 @@
+# SCPCE - Persistent Context Engine
+# This project has NO external dependencies.
+# All modules use only the Python standard library.
