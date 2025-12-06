@@ -10,6 +10,28 @@ from pce import api
 from pce.storage import MEMORY_FILE, load_all
 from pce.schema import RecapFrame, ContextBundle
 
+"""
+───────────────────────────────────────────────────────────────────────────────
+ Developer’s Note
+
+ This system started as a personal tool — a way to force clarity, determinism,
+ and traceability into long-running reasoning. But it was never meant to stay
+ on a laptop.
+
+ Transparent autonomy, auditable memory, and human-gated control systems matter.
+ They require more than one engineer; they require people who understand why
+ determinism and accountability must be built into the foundation, not bolted
+ on later.
+
+ If you're reading this because you're evaluating the architecture:
+   - I build systems where every step is inspectable.
+   - State is explicit, never magical.
+   - Memory is accountable, never free-floating.
+   - Safety and transparency aren't features — they're prerequisites.
+
+ I'm ready to work with the teams who believe the same.
+───────────────────────────────────────────────────────────────────────────────
+"""
 
 BANNER = """
 ===================================================
